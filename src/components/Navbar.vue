@@ -1,8 +1,12 @@
 <template>
   <div>
     <b-navbar toggleable="lg" type="dark" variant="info">
-    <b-navbar-brand href="#">NavBar</b-navbar-brand>
-
+    <b-navbar-brand href="#">
+      <img src="https://static.domainesia.com/assets/images/logo-domainesia-v4.png"
+      alt="Domainesia"
+      class="navbar-brand"
+      >
+    </b-navbar-brand>
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
     <b-collapse id="nav-collapse" is-nav>
@@ -46,5 +50,7 @@ export default {
 </script>
 
 <style>
-
+.navbar-brand{
+  width: 155px;
+}
 </style>

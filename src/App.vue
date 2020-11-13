@@ -22,6 +22,10 @@ export default {
   color: #2c3e50;
 }
 
+.full-height{
+  min-height: 90vh;
+}
+
 #nav {
   padding: 30px;
 }

@@ -1,8 +1,7 @@
 <template>
-  <div class="home">
-    <p>Home</p>
+  <div class="container-fluid m-0 p-0">
     <Navbar />
-    <PacketList />
+    <HomePage />
     <Feature />
     <Footer />
   </div>
@@ -13,7 +12,7 @@
 import Feature from '../components/Feature'
 import Footer from '../components/Footer.vue'
 import Navbar from '../components/Navbar.vue'
-import PacketList from '../components/PacketList.vue'
+import HomePage from '../components/HomePage.vue'
 
 export default {
   name: 'Home',
@@ -21,7 +20,7 @@ export default {
     Feature,
     Footer,
     Navbar,
-    PacketList
+    HomePage
   }
 }
 </script>

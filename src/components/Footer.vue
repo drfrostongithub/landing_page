@@ -1,6 +1,5 @@
 <template>
-  <div>
-      Footer
+  <div id="footer" class="bg-info p-4">
   </div>
 </template>
 
