@@ -1,11 +1,11 @@
 <template>
   <div id="home_page" class="full-height p-4">
     <div class="container">
-        <div class="h-100 row align-items-center">
+        <div class="form h-100 row align-items-center">
             <h3 class="col">Search for your domain in this vast forest of web ...</h3>
-            <div class="col-sm-12 featureItem">
+            <div class="col-xs">
                 <div class="input-group">
-                <input v-model="text" placeholder="Ketik Domain" class="form-control">
+                <input v-model="text" placeholder="ex: www." class="form-control">
                 <span class="input-group-btn">
                     <b-button variant="outline-primary"
                     class="button bar-button-common" type="submit"
@@ -25,15 +25,18 @@ export default {
 </script>
 
 <style scoped>
+body{
+    padding-top: 90px;
+}
 #home_page{
     background-color: #92D2F2;
     background: url('../assets/mountains.png') no-repeat center center;
     background-size: cover;
-
 }
 h3{
     display: block;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 100;
     color: rgb(27, 44, 58);
     font-weight: 0.75;
     margin-block-start: 1em;
@@ -42,9 +45,9 @@ h3{
     margin-inline-end: 0px;
 }
 .container {
-  height: 10em;
-  display: flex;
-  align-items: center;
-  justify-content: center
+    padding-top: 26vh;
+    display: flex;
+    align-items: center;
+    justify-content: center
 }
 </style>
