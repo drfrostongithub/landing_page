@@ -1,7 +1,5 @@
 <template>
   <div>
-    <a href="/">Home</a>
-    <a href="/hosting">Hosting</a>
     <PacketList />
   </div>
 </template>
@@ -16,6 +14,5 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
 </style>
