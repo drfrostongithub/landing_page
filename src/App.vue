@@ -1,14 +1,23 @@
 <template>
   <div id="app">
+    <Navbar />
     <router-view/>
+    <Feature />
+    <Footer />
   </div>
 </template>
 
 <script>
+import Feature from './components/Feature.vue'
+import Footer from './components/Footer.vue'
+import Navbar from './components/Navbar.vue'
 
 export default {
   name: 'App',
   components: {
+    Feature,
+    Footer,
+    Navbar
   }
 }
 </script>
@@ -23,7 +32,7 @@ export default {
 }
 
 .full-height{
-  min-height: 90vh;
+  min-height: 94vh;
 }
 
 #nav {
