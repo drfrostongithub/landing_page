@@ -1,6 +1,6 @@
 <template>
   <!-- Footer -->
-    <footer class="page-footer font-small indigo">
+    <footer class="page-footer font-small bg-secondary">
 
       <!-- Footer Links -->
       <div class="container">
@@ -11,7 +11,7 @@
           <!-- Grid column -->
           <div class="col-md-2 mb-3">
             <h6 class="text-uppercase font-weight-bold">
-              <a href="#!">About us</a>
+              <a href="#!" class="link">About us</a>
             </h6>
           </div>
           <!-- Grid column -->
@@ -19,7 +19,7 @@
           <!-- Grid column -->
           <div class="col-md-2 mb-3">
             <h6 class="text-uppercase font-weight-bold">
-              <a href="#!">Products</a>
+              <a href="#!" class="link">Products</a>
             </h6>
           </div>
           <!-- Grid column -->
@@ -27,7 +27,7 @@
           <!-- Grid column -->
           <div class="col-md-2 mb-3">
             <h6 class="text-uppercase font-weight-bold">
-              <a href="#!">Awards</a>
+              <a href="#!" class="link">Awards</a>
             </h6>
           </div>
           <!-- Grid column -->
@@ -35,7 +35,7 @@
           <!-- Grid column -->
           <div class="col-md-2 mb-3">
             <h6 class="text-uppercase font-weight-bold">
-              <a href="#!">Help</a>
+              <a href="#!" class="link">Help</a>
             </h6>
           </div>
           <!-- Grid column -->
@@ -43,7 +43,7 @@
           <!-- Grid column -->
           <div class="col-md-2 mb-3">
             <h6 class="text-uppercase font-weight-bold">
-              <a href="#!">Contact</a>
+              <a href="#!" class="link">Contact</a>
             </h6>
           </div>
           <!-- Grid column -->
@@ -115,7 +115,7 @@
 
       <!-- Copyright -->
       <div class="footer-copyright text-center py-3">© 2020 Copyright:
-        <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+        <a href="https://mdbootstrap.com/" class="link"> MDBootstrap.com</a>
       </div>
       <!-- Copyright -->
 
@@ -129,6 +129,8 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+.link{
+  color: aliceblue;
+}
 </style>

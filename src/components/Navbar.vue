@@ -11,7 +11,6 @@
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
     <b-collapse id="nav-collapse" is-nav>
-
       <!-- Right aligned nav items -->
       <b-button-group class="ml-auto nav-right">
         <b-button>Domain</b-button>
