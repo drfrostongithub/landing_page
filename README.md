@@ -5,11 +5,11 @@
 Hello, my name is Putra, 
 I'm using Vue JS with State management of Vuex in this case, you may wonder, why I'm using this framework ? 
 
-First I can make components out of vue, actually I can also use reactjs, but this is just personal preference, 
+First I with Vue js, I can make a single page application, that works faster and efficient rather than multiple page application, which require client-side less burdened, 
 
-Second, with vuex I can break every single page html section into components, so for long-term maintenance will be better and easier to develop.
+Second, with vue.js I can break every single page html section into components, so for long-term maintenance will be better and easier to develop, and Vuex state management will make easier to manipulate data from or/ to backend.
 
-Third, I can also configure the seo according to schema.org, and can be interchangeable to nuxt.js in case you need more SEO 'Muscle-Power'
+Third, vue.js can be configured with SEO usability according to schema.org, and can be interchangeable to nuxt.js in case you need more SEO 'Muscle-Power'
 
 ## 2nd NOTE From Developer
 
