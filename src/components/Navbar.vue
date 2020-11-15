@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-navbar toggleable="lg" type="light">
+    <b-navbar toggleable="lg" class="navbar" variant="light">
     <a @click.prevent="goToHome"
     >
       <img src="https://static.domainesia.com/assets/images/logo-domainesia-v4.png"
@@ -14,7 +14,7 @@
       <!-- Right aligned nav items -->
       <b-button-group class="ml-auto nav-right">
         <b-button>Domain</b-button>
-        <b-button router-link to="/hosting">Hosting</b-button>
+        <b-button router-link to="/hosting" variant="danger">Hosting</b-button>
         <b-button>Web Apps</b-button>
         <b-button>Virtual Server</b-button>
         <b-dropdown right text="Profile" variant="primary">
@@ -40,9 +40,6 @@ export default {
 </script>
 
 <style>
-b-navbar{
-  background-color: cadetblue;
-}
 .navbar-brand{
   width: 300px;
   padding-left: 10vh;

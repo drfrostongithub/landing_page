@@ -38,6 +38,7 @@ body{
 }
 h3{
     display: block;
+    float: top;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 100;
     color: rgb(27, 44, 58);

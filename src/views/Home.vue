@@ -20,7 +20,5 @@ export default {
 </script>
 
 <style scoped>
-b-navbar{
-  background-color:red;
-}
+
 </style>
