@@ -17,7 +17,7 @@
       <!-- Right aligned nav items -->
       <b-button-group class="ml-auto nav-right">
         <b-button>Domain</b-button>
-        <b-button router-link to="/hosting" variant="danger">Hosting</b-button>
+        <b-button @click.prevent="goToHosting" variant="danger">Hosting</b-button>
         <b-button>Web Apps</b-button>
         <b-button>Virtual Server</b-button>
         <b-button variant="success">Sign In</b-button>
@@ -39,6 +39,9 @@ export default {
   methods: {
     goToHome () {
       this.$router.push('/')
+    },
+    goToHosting () {
+      this.$router.push('/hosting')
     }
   }
 }

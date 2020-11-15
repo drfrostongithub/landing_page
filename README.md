@@ -11,6 +11,24 @@ Second, with vuex I can easily fetching api using axios which you will see on sr
 
 Third, I can also configure the seo according to schema.org, and can be interchangeable to nuxt.js in case you need more SEO 'Muscle-Power'
 
+## NOTE From Developer
+- Landing Page using HTML5, CSS and Javascript (*Done)
+- Landing Page karya sendiri dan semenarik mungkin (*Done)
+- Memiliki section untuk menampilkan paket hosting (*Done)
+    Footnote: Saat ini menggunakan hardcode, namun apabila sudah ada url utk fetch api, bisa segera lihat note di store.
+- HTML5 dgn beberapa semantic elements (*Done)
+- Structured Data utk keperluan SEO (*Done)
+- Simulasi fetch with API (*Done)
+- Histori Perubahan GIT (*Done)
+
+Optional
+- Framework VUE Js with state VUEX, HTML + CSS + SCSS, Bootstrap, BootstrapVue, and MDBootstrap. (Already Explaining)
+- Using user experience (*Adding on section hosting [Have Any Question ?] agar user langsung berkomunikasi apabila masih ada pertanyaan setelah membaca F.A.Q)
+- Mengoptimasi Aset Web (*Reusable Components)
+- Firebase Deploy 
+    Footnote: Developer optional agar bisa dilihat apabila di deploy. 
+    link : 
+
 ## Project setup
 ```
 npm install

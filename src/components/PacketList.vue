@@ -124,7 +124,9 @@
 
 <script>
 export default {
-  name: 'PacketList'
+  name: 'PacketList',
+  props: ['product']
+  // you can then use product.something to show data
 }
 </script>
 
