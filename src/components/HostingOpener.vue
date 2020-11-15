@@ -2,12 +2,12 @@
 <div class="animated-title">
   <div class="text-top">
     <div>
-      <span>mimicking</span>
-      <span>apple's design</span>
+      <span>The Best</span>
+      <span>In Price</span>
     </div>
   </div>
   <div class="text-bottom">
-    <div>for the win!</div>
+    <div>& Performance</div>
   </div>
 </div>
 </template>
@@ -32,12 +32,14 @@ export default {
 .animated-title {
   color: #222;
   font-family: Roboto, Arial, sans-serif;
-  height: 90vmin;
-  left: 50%;
-  position: absolute;
-  top: 50%;
+  height: 70vmin;
+  margin-left: 50%;
+  position: relative;
+  margin-top: 20%;
+  margin-bottom: -20%;
   transform: translate(-50%, -50%);
   width: 90vmin;
+  float: left;
 }
 .animated-title > div {
   height: 50%;
@@ -51,7 +53,7 @@ export default {
   position: absolute;
 }
 .animated-title > div div span {
-  display: block;
+  display: flex;
 }
 .animated-title > div.text-top {
   border-bottom: 1vmin solid #000;

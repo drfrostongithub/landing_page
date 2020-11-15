@@ -2,6 +2,7 @@
   <div id="app">
     <Navbar />
     <router-view/>
+    <Promotion />
     <Footer />
   </div>
 </template>
@@ -9,12 +10,14 @@
 <script>
 import Footer from './components/Footer.vue'
 import Navbar from './components/Navbar.vue'
+import Promotion from './components/Promotion.vue'
 
 export default {
   name: 'App',
   components: {
     Footer,
-    Navbar
+    Navbar,
+    Promotion
   }
 }
 </script>

@@ -6,23 +6,23 @@
           <h3>Rp. 16.000,-/Month</h3>
           <ul>
             <li>
-              <span class="left">750</span>
+              <span class="left"><strong>750</strong></span>
               <span class="right">MB Space</span>
             </li>
             <li>
-              <span class="left">Unlimited</span>
+              <span class="left"><strong>Unlimited</strong></span>
               <span class="right">Bandwidth</span>
             </li>
             <li>
-              <span class="left">5</span>
+              <span class="left"><strong>5</strong></span>
               <span class="right">Website</span>
             </li>
             <li>
-              <span class="left">Unlimited</span>
+              <span class="left"><strong>Unlimited</strong></span>
               <span class="right">Email</span>
             </li>
             <li>
-              <span class="left">Supports</span>
+              <span class="left"><strong>Supports</strong></span>
               <span class="right">IPv4 & IPv6</span>
             </li>
           </ul>
@@ -46,24 +46,30 @@
           <h3>Rp. 32.000,-/Month</h3>
           <ul>
             <li>
-              <span class="left">750</span>
-              <span class="right">MB Space</span>
+              <span class="left"><strong>2</strong></span>
+              <span class="right">GB Space</span>
             </li>
             <li>
-              <span class="left">Unlimited</span>
+              <span class="left"><strong>Unlimited</strong></span>
               <span class="right">Bandwidth</span>
             </li>
             <li>
-              <span class="left">5</span>
+              <span class="left"><strong>Unlimited</strong></span>
               <span class="right">Website</span>
             </li>
             <li>
-              <span class="left">Unlimited</span>
+              <span class="left"><strong>Unlimited</strong></span>
               <span class="right">Email</span>
             </li>
             <li>
-              <span class="left">Supports</span>
+              <span class="left"><strong>Supports</strong></span>
               <span class="right">IPv4 & IPv6</span>
+            </li>
+            <li>
+              <span id="center">Gratis Domain!</span>
+            </li>
+            <li>
+              <span id="center">Akses SSH</span>
             </li>
           </ul>
         </div>
@@ -79,24 +85,30 @@
           <h3>Rp. 64.000,-/Month</h3>
           <ul>
             <li>
-              <span class="left">750</span>
-              <span class="right">MB Space</span>
+              <span class="left"><strong>5</strong></span>
+              <span class="right">GB Space</span>
             </li>
             <li>
-              <span class="left">Unlimited</span>
+              <span class="left"><strong>Unlimited</strong></span>
               <span class="right">Bandwidth</span>
             </li>
             <li>
-              <span class="left">5</span>
+              <span class="left"><strong>Unlimited</strong></span>
               <span class="right">Website</span>
             </li>
             <li>
-              <span class="left">Unlimited</span>
+              <span class="left"><strong>Unlimited</strong></span>
               <span class="right">Email</span>
             </li>
             <li>
-              <span class="left">Supports</span>
+              <span class="left"><strong>Supports</strong></span>
               <span class="right">IPv4 & IPv6</span>
+            </li>
+            <li>
+              <span id="center">Gratis Domain!</span>
+            </li>
+            <li>
+              <span id="center">Akses SSH</span>
             </li>
           </ul>
         </div>
@@ -120,14 +132,25 @@ export default {
 #packet_list{
   position: center;
 }
-li{
+ul{
   list-style-type:none;
 }
-.left{
-  text-align: left;
+ul li{
+  margin-left: -5vh;
 }
-.right{
-  text-align:center;
+.left {
+  display: inline-block;
+  line-height: 40px;
+  margin-right: 5px;
+  text-align: right;
+  width: 48%;
+}
+
+.right {
+  display: inline-block;
+  line-height: 40px;
+  text-align: left;
+  width: 48%;
 }
 body{
   font-family: 'Lato', sans-serif;

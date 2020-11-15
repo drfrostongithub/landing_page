@@ -57,8 +57,16 @@
 
           <!-- Grid column -->
           <div class="col-md-8 col-12 mt-5">
-            <p style="line-height: 1.7rem">This Landing Page, was created for the purpose of Test from Domainesia,
-              and also be referenced for any private non-commercial use</p>
+            <p style="line-height: 1.7rem">Kontak :
+              PT Deneva
+              Jl. C. Simanjuntak No.65 Yogyakarta 55223
+              D. I. Yogyakarta, Indonesia
+            </p>
+            <p>Phone: (0274) 545653</p>
+            <p>
+              IM: 085727776660
+              sales@domainesia.com
+            </p>
           </div>
           <!-- Grid column -->
 
@@ -112,7 +120,9 @@
 
       <!-- Copyright -->
       <div class="footer-copyright text-center py-3">© 2020 Copyright:
-        <a href="https://github.com/drfrostongithub" class="link"> DrFrost</a>
+        <a href="https://github.com/drfrostongithub" class="link"> DrFrost</a><br>
+        <small>This Landing Page, was created for the purpose of Test from Domainesia,
+              and also be referenced for any private non-commercial use</small>
       </div>
       <!-- Copyright -->
 

@@ -2,10 +2,13 @@
   <div>
     <b-navbar toggleable="lg" class="navbar" variant="light">
     <a @click.prevent="goToHome"
+    itemprop="url"
+    itemtype="http://schema.org/Organization"
     >
       <img src="https://static.domainesia.com/assets/images/logo-domainesia-v4.png"
       alt="Domainesia"
       class="navbar-brand"
+      itemprop="logo"
       >
     </a>
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -17,6 +20,8 @@
         <b-button router-link to="/hosting" variant="danger">Hosting</b-button>
         <b-button>Web Apps</b-button>
         <b-button>Virtual Server</b-button>
+        <b-button variant="success">Sign In</b-button>
+        <b-button variant="info">Sign Up</b-button>
         <b-dropdown right text="Profile" variant="primary">
           <b-dropdown-item>Status</b-dropdown-item>
           <b-dropdown-divider></b-dropdown-divider>
@@ -43,9 +48,6 @@ export default {
 .navbar-brand{
   width: 300px;
   padding-left: 10vh;
-}
-.blue{
-  color:cadetblue
 }
 .nav-right{
   padding-right: 10vh;
