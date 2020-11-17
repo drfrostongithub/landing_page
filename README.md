@@ -27,7 +27,7 @@ Optional
 - Using user experience (*Adding on section hosting 
 1. [Have Any Question ?] agar user langsung berkomunikasi   apabila masih ada pertanyaan setelah membaca F.A.Q
 2. [Colorful and Interesting Hosting Pack] user(human) lebih attentive dan prefer gambar daripada wall of text and deskripsi, deskripsi bisa di berikan apabila user(human) tertarik dan order paket hosting
-3. [Bold & Simple Message] Marketing make it interesting and simple make it easier for user(human) to understand, I learn psychology for this :) )
+3. [Bold & Simple Message] Marketing make it interesting and simple make it easier for user(human) to understand )
 - Mengoptimasi Aset Web (*Reusable Components)
 - Firebase Deploy 
     Footnote: Developer optional agar bisa dilihat apabila di deploy. 
