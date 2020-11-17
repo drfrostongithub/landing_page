@@ -30,7 +30,7 @@ body{
 }
 #home_page{
     background-color: #92D2F2;
-    background: url('../assets/mountains.png') no-repeat center center;
+    background: url('../assets/mountains-min.webp') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
