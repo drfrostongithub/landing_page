@@ -125,7 +125,7 @@
       <!-- Copyright -->
       <div class="footer-copyright text-center py-3">© 2020 Copyright:
         <a href="https://github.com/drfrostongithub" class="link"> DrFrost</a><br>
-        <small>This Landing Page, was created for the purpose of Test from Domainesia,
+        <small>This Landing Page, was created for the purpose of Test,
               and also be referenced for any private non-commercial use</small>
       </div>
       <!-- Copyright -->
